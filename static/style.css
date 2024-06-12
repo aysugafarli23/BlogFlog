@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: greenyellow;
+    color: white;
+    margin-left: 3em;
+}
+
+.container{
+    width: 1200px;
+    max-width: 95%;
+    margin:0 auto;
+}
+
+.container > h1 {
+    text-align: center;
+    color: #a42317;
+    margin-top: 40px;
+    font-style: italic;
+}
+
+.blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.blogs ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(6, 68, 54);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 80px;
+}
+
+.blogs ul li a{
+    color: yellow;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+.blogs h1{
+    color: yellow;
+    text-transform: capitalize;
+}
+
+.blog__card{
+    width: 550px;
+    height: 100%;
+    border: none;
+    background-color: yellowgreen;
+    border-radius: 50px;
+    border: 1px dashed white;
+    margin: 10px 5px;
+}
+
+.btnBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.btn {
+    color: green;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: yellow;
+    border: none;
+    border-radius: 45px;
+    padding: 15px 20px;
+
+}
