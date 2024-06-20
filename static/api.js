@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 blogItem.innerHTML = `
                     <ul>
                         <li>
-                            <h1>${blog.author}</h1>
+                            <h1>${blog.author.username}</h1>
                             <h2>${truncate(blog.title, 20)}</h2>
                             <p>${truncate(blog.content, 70)}</p>
                             <img src="${blog.image.url}" alt="${truncate(blog.content, 20)}">
